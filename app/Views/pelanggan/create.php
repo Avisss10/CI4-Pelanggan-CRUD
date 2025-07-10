@@ -428,7 +428,6 @@
     <script>
         // Form validation
         document.getElementById('customerForm').addEventListener('submit', function(e) {
-            e.preventDefault();
             
             // Reset error messages
             document.querySelectorAll('.error-message').forEach(el => {
